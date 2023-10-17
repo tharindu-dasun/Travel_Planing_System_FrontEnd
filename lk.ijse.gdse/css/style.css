@@ -1,6 +1,6 @@
 :root{
     --green: #1ec6b6;
-    --light-grey: #f7f7f7;
+    --light-grey: #3fd0d0;
     --dark: #0e1010;
     --trans: all 0.3s ease-in-out;
 }
@@ -99,13 +99,28 @@
     opacity: 0.8;
 }
 
+.all{
+    /*background-image: url("https://images.pexels.com/photos/12271257/pexels-photo-12271257.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");*/
+    background-image: url("https://cutewallpaper.org/23/black-leaf-blue-water-wallpaper/1279615926.jpg");
+    background-size: contain;
+    /*background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url(https://images.pexels.com/photos/12271257/pexels-photo-12271257.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) no-repeat ;*/
+    /*background-size: contains;*/
+    /*background: -o-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(https://images.pexels.com/photos/12271257/pexels-photo-12271257.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) no-repeat ;*/
+    /*background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(https://images.pexels.com/photos/12271257/pexels-photo-12271257.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)tile  no-repeat ;*/
+}
+
+.contact-all{
+    background-image: url("https://cutewallpaper.org/23/black-leaf-blue-water-wallpaper/1279615926.jpg");
+    background-size: contain;
+}
+
 /* header */
 header{
     min-height: 100vh;
     padding-top: 7rem;
-    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url(https://images.pexels.com/photos/5041784/pexels-photo-5041784.jpeg) center/cover no-repeat;
-    background: -o-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(https://images.pexels.com/photos/5041784/pexels-photo-5041784.jpeg) center/cover no-repeat;
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(https://images.pexels.com/photos/5041784/pexels-photo-5041784.jpeg) center/cover no-repeat;
+    /*background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url(https://images.pexels.com/photos/5041784/pexels-photo-5041784.jpeg) center/cover no-repeat;*/
+    /*background: -o-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(https://images.pexels.com/photos/5041784/pexels-photo-5041784.jpeg) center/cover no-repeat;*/
+    /*background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(https://images.pexels.com/photos/5041784/pexels-photo-5041784.jpeg) center/cover no-repeat;*/
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -233,6 +248,7 @@ header{
     }
 }
 
+
 .header-form{
     background: rgba(0, 0, 0, 0.5);
     padding: 3rem;
@@ -297,6 +313,7 @@ header{
     color: var(--green);
 }
 
+
 /* featured */
 .featured-item{
     position: relative;
@@ -323,7 +340,7 @@ header{
     bottom: 0;
     left: 0;
     z-index: 2;
-    color: #fff;
+    color: #ffffff;
     width: 100%;
     padding: 1rem;
     -webkit-transform: translateY(68%);
@@ -352,14 +369,32 @@ header{
 }
 
 /* services */
-#services{
-    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(https://images.pexels.com/photos/5268382/pexels-photo-5268382.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) center/cover no-repeat;
-    background: -o-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://images.pexels.com/photos/5268382/pexels-photo-5268382.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) center/cover no-repeat;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://images.pexels.com/photos/5268382/pexels-photo-5268382.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) center/cover no-repeat;
-}
+/*#services{*/
+/*    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(https://images.pexels.com/photos/5268382/pexels-photo-5268382.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) center/cover no-repeat;*/
+/*    background: -o-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://images.pexels.com/photos/5268382/pexels-photo-5268382.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) center/cover no-repeat;*/
+/*    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://images.pexels.com/photos/5268382/pexels-photo-5268382.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) center/cover no-repeat;*/
+/*}*/
 #services *{
     color: #fff;
 }
+.services-back{
+    background: rgba(0, 0, 0, 0.5);
+    padding: 3rem;
+    border-radius: 0.2rem;
+}
+
+.aboutt-back{
+    background: rgba(255, 255, 255, 0.37);
+    padding: 3rem;
+    border-radius: 0.2rem;
+}
+
+.contact-back{
+    background: rgba(255, 255, 255, 0.37);
+    padding: 3rem;
+    border-radius: 0.2rem;
+}
+
 .services-item{
     text-align: center;
     padding: 2rem 0.5rem;
@@ -378,14 +413,14 @@ header{
 }
 
 /* testimonials */
-#testimonials{
-    background-color: var(--light-grey);
-}
+/*#testimonials{*/
+/*    background-color: var(--light-grey);*/
+/*}*/
 .test-item{
     border: 2px solid var(--light-grey);
     padding: 2rem 1rem;
     position: relative;
-    background-color: #fff;
+    background-color: #ffffff;
     border-radius: 0.2rem;
     margin: 2rem 0 14rem 0;
 }
@@ -725,9 +760,9 @@ header.header-sm{
 
 /* ### BLOG PAGE ### */
 /* blog */
-#blog{
-    background-color: var(--light-grey);
-}
+/*#blog{*/
+/*    background-color: var(--light-grey);*/
+/*}*/
 .blog-item{
     background-color: #fff;
     -webkit-transition: var(--trans);
