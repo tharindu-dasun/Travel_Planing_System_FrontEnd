@@ -1,6 +1,6 @@
 :root{
     --green: #1ec6b6;
-    --light-grey: #d45bff;
+    --light-grey: #00fff6;
     --dark: #0e1010;
     --trans: all 0.3s ease-in-out;
 }
@@ -426,9 +426,9 @@ header{
 
  services
 #services{
-    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(https://images.pexels.com/photos/5268382/pexels-photo-5268382.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) center/cover no-repeat;
-    background: -o-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://images.pexels.com/photos/5268382/pexels-photo-5268382.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) center/cover no-repeat;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://images.pexels.com/photos/5268382/pexels-photo-5268382.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) center/cover no-repeat;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(https://images.pexels.com/photos/5370431/pexels-photo-5370431.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) center/cover no-repeat;
+    background: -o-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://images.pexels.com/photos/5370431/pexels-photo-5370431.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) center/cover no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://images.pexels.com/photos/5370431/pexels-photo-5370431.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) center/cover no-repeat;
 }
 #services *{
     color: #fff;
@@ -437,19 +437,34 @@ header{
     background: rgba(0, 0, 0, 0.5);
     padding: 3rem;
     border-radius: 0.2rem;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(https://images.pexels.com/photos/5370431/pexels-photo-5370431.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) center/cover no-repeat;
+    background: -o-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://images.pexels.com/photos/5370431/pexels-photo-5370431.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) center/cover no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://images.pexels.com/photos/5370431/pexels-photo-5370431.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) center/cover no-repeat;
 }
 
+.travel-plan-back{
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(https://images.pexels.com/photos/5370431/pexels-photo-5370431.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) center/cover no-repeat;
+    background: -o-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://images.pexels.com/photos/5370431/pexels-photo-5370431.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) center/cover no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://images.pexels.com/photos/5370431/pexels-photo-5370431.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) center/cover no-repeat;
+}
+
+.contact-back{
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(https://images.pexels.com/photos/7084134/pexels-photo-7084134.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) center/cover no-repeat;
+    background: -o-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://images.pexels.com/photos/7084134/pexels-photo-7084134.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) center/cover no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://images.pexels.com/photos/7084134/pexels-photo-7084134.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) center/cover no-repeat;
+
+}
 .aboutt-back{
     background: rgba(255, 255, 255, 0.37);
     padding: 3rem;
     border-radius: 0.2rem;
 }
 
-.contact-back{
-    background: rgba(255, 255, 255, 0.37);
-    padding: 3rem;
-    border-radius: 0.2rem;
-}
+/*.contact-back{*/
+/*    background: rgba(255, 255, 255, 0.37);*/
+/*    padding: 3rem;*/
+/*    border-radius: 0.2rem;*/
+/*}*/
 
 .services-item{
     text-align: center;
@@ -473,7 +488,12 @@ header{
     background-color: var(--light-grey);
 }
  .testimonials-class{
-     background-image: ;
+     /*background-image: url("https://images.pexels.com/photos/5967810/pexels-photo-5967810.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");*/
+     /*background-size: cover;*/
+     background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(https://images.pexels.com/photos/5444614/pexels-photo-5444614.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) center/cover no-repeat;
+     background: -o-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://images.pexels.com/photos/5444614/pexels-photo-5444614.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) center/cover no-repeat;
+     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://images.pexels.com/photos/5444614/pexels-photo-5444614.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) center/cover no-repeat;
+
  }
 
 .test-item{
