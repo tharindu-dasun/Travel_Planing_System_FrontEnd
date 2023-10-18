@@ -364,6 +364,7 @@
 
     <!-- testimonials section -->
     <section id = "testimonials" class = "py-4">
+        <div class="testimonials-class">
         <div class = "container">
             <div class = "title-wrap">
                 <span class = "sm-title">what our clients say about us</span>
@@ -405,21 +406,9 @@
                 </div>
             </div>
         </div>
+        </div>
     </section>
     <!-- end of testimonials section -->
-
-    <!-- video section -->
-<!--    <section id = "video">-->
-<!--        <div class = "video-wrapper flex">-->
-<!--            <video loop>-->
-<!--                <source src = "../../lk.ijse.gdse/videos/production_id_5117938 (1080p).mp4" type = "video/mp4">-->
-<!--            </video>-->
-<!--            <button type = "button" id = "play-btn">-->
-<!--                <i class = "fas fa-play"></i>-->
-<!--            </button>-->
-<!--        </div>-->
-<!--    </section>-->
-    <!-- end of video section -->
 
     <!-- footer -->
     <footer class = "py-4">
@@ -488,17 +477,6 @@
 
     <!-- js -->
     <script src = "js/script.js"></script>
-    <script>
-        // play/pause video
-        let video = document.querySelector('.video-wrapper video');
-        document.getElementById('play-btn').addEventListener('click', () => {
-            if(video.paused){
-                video.play();
-            } else {
-                video.pause();
-            }
-        });
-    </script>
     </div>
     </body>
 </html>

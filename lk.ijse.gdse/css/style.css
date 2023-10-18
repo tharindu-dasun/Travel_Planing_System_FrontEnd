@@ -1,6 +1,6 @@
 :root{
     --green: #1ec6b6;
-    --light-grey: #3fd0d0;
+    --light-grey: #d45bff;
     --dark: #0e1010;
     --trans: all 0.3s ease-in-out;
 }
@@ -99,28 +99,25 @@
     opacity: 0.8;
 }
 
-.all{
-    /*background-image: url("https://images.pexels.com/photos/12271257/pexels-photo-12271257.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");*/
-    background-image: url("https://cutewallpaper.org/23/black-leaf-blue-water-wallpaper/1279615926.jpg");
-    background-size: contain;
-    /*background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url(https://images.pexels.com/photos/12271257/pexels-photo-12271257.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) no-repeat ;*/
-    /*background-size: contains;*/
-    /*background: -o-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(https://images.pexels.com/photos/12271257/pexels-photo-12271257.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) no-repeat ;*/
-    /*background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(https://images.pexels.com/photos/12271257/pexels-photo-12271257.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)tile  no-repeat ;*/
-}
+/*.all{*/
+/*    !*background-image: url("https://images.pexels.com/photos/12271257/pexels-photo-12271257.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");*!*/
+/*    !*background-image: url("https://i.pinimg.com/236x/7c/32/d0/7c32d051d0cee730e5aeeba680666b89.jpg");*!*/
+/*    !*background-size: contain;*!*/
+/*    background-color: #228B22;*/
+/*    !*background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url(https://images.pexels.com/photos/12271257/pexels-photo-12271257.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) no-repeat ;*!*/
+/*    !*background-size: contains;*!*/
+/*    !*background: -o-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(https://images.pexels.com/photos/12271257/pexels-photo-12271257.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) no-repeat ;*!*/
+/*    !*background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(https://images.pexels.com/photos/12271257/pexels-photo-12271257.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)tile  no-repeat ;*!*/
+/*}*/
 
-.contact-all{
-    background-image: url("https://cutewallpaper.org/23/black-leaf-blue-water-wallpaper/1279615926.jpg");
-    background-size: contain;
-}
 
 /* header */
 header{
     min-height: 100vh;
     padding-top: 7rem;
-    /*background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url(https://images.pexels.com/photos/5041784/pexels-photo-5041784.jpeg) center/cover no-repeat;*/
-    /*background: -o-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(https://images.pexels.com/photos/5041784/pexels-photo-5041784.jpeg) center/cover no-repeat;*/
-    /*background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(https://images.pexels.com/photos/5041784/pexels-photo-5041784.jpeg) center/cover no-repeat;*/
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url(https://images.pexels.com/photos/5041784/pexels-photo-5041784.jpeg) center/cover no-repeat;
+    background: -o-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(https://images.pexels.com/photos/5041784/pexels-photo-5041784.jpeg) center/cover no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(https://images.pexels.com/photos/5041784/pexels-photo-5041784.jpeg) center/cover no-repeat;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -427,12 +424,12 @@ header{
             transform: translateY(0);
 }
 
-/* services */
-/*#services{*/
-/*    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(https://images.pexels.com/photos/5268382/pexels-photo-5268382.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) center/cover no-repeat;*/
-/*    background: -o-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://images.pexels.com/photos/5268382/pexels-photo-5268382.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) center/cover no-repeat;*/
-/*    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://images.pexels.com/photos/5268382/pexels-photo-5268382.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) center/cover no-repeat;*/
-/*}*/
+ services
+#services{
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(https://images.pexels.com/photos/5268382/pexels-photo-5268382.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) center/cover no-repeat;
+    background: -o-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://images.pexels.com/photos/5268382/pexels-photo-5268382.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) center/cover no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://images.pexels.com/photos/5268382/pexels-photo-5268382.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) center/cover no-repeat;
+}
 #services *{
     color: #fff;
 }
@@ -471,10 +468,14 @@ header{
     display: inline-block;
 }
 
-/* testimonials */
-/*#testimonials{*/
-/*    background-color: var(--light-grey);*/
-/*}*/
+ testimonials
+#testimonials{
+    background-color: var(--light-grey);
+}
+ .testimonials-class{
+     background-image: ;
+ }
+
 .test-item{
     border: 2px solid var(--light-grey);
     padding: 2rem 1rem;
@@ -818,12 +819,12 @@ header.header-sm{
 }
 
 /* ### BLOG PAGE ### */
-/* blog */
+/* blog*/
 /*#blog{*/
 /*    background-color: var(--light-grey);*/
 /*}*/
 .blog-item{
-    background-color: #fff;
+    background-color: rgba(132, 142, 157, 0.54);
     -webkit-transition: var(--trans);
     -o-transition: var(--trans);
     transition: var(--trans);
@@ -880,9 +881,9 @@ header.header-sm{
 
 /* facts */
 #facts{
-    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../images/facts-img.jpg) center/cover no-repeat;
-    background: -o-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/facts-img.jpg) center/cover no-repeat;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/facts-img.jpg) center/cover no-repeat;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(https://w0.peakpx.com/wallpaper/884/192/HD-wallpaper-terrace-in-maldives-islands-terrace-ocean-maldives-wooden.jpg) center/cover no-repeat;
+    background: -o-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://w0.peakpx.com/wallpaper/884/192/HD-wallpaper-terrace-in-maldives-islands-terrace-ocean-maldives-wooden.jpg) center/cover no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://w0.peakpx.com/wallpaper/884/192/HD-wallpaper-terrace-in-maldives-islands-terrace-ocean-maldives-wooden.jpg) center/cover no-repeat;
     min-height: 80vh;
 }
 #facts .title-wrap{
